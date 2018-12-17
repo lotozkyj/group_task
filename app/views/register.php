@@ -1,4 +1,4 @@
-<h2>Register</h2>
+<h2>Регистрация</h2>
 
 <?php  if(!empty($errors)): ?>
     <div class="error"><?=$errors?></div>
@@ -6,20 +6,19 @@
 
 <form action="/register/handle" method="post">
     <dl>
-        <dt>Login:</dt>
+        <dt>Логин:</dt>
         <dd><input type="text" name="login"
             <?php if(!empty($old["login"])) echo "value='{$old["login"]}'"; ?>
             ></dd>
 
-        <dt>Password:</dt>
+        <dt>Пароль:</dt>
         <dd><input type="password" name="pass"
                 <?php if(!empty($old["pass"])) echo "value='{$old["pass"]}'"; ?>
             ></dd>
-
-        <dt>Password confirm:</dt>
+        <dt>Подтверждение пароля:</dt>
         <dd><input type="password" name="pass2"
                 <?php if(!empty($old["pass2"])) echo "value='{$old["pass2"]}'"; ?>
             ></dd>
-    </dl>
-    <input type="submit" value="Register">
+    </dl><br>
+    <input type="submit" value="Регистрация">
 </form>

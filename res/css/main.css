@@ -52,8 +52,14 @@ section{
     text-align: center;
 
 }
-
 .error {
     color: red;
     font-size: 20px;
+}
+.hellos {
+    background-color: #86c8cc;
+    font-size: 18px;
+}
+.main_menu {
+    padding: 20px;
 }

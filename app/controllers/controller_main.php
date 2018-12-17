@@ -1,10 +1,12 @@
 <?php
 function action_index(){
-
-    return renderViewWithTemplate("main","default",[
+    $data = [
         "title"=>"Главная",
         "user"=>auth_currentUser()
-    ]);
+    ];
+    $data['errors'] = @$_SESSION["errors"];
+    if($data['errors']!=null) unset($_SESSION["errors"]);
+    return renderViewWithTemplate("main","default", $data);
 }
 function action_contacts(){
     $data=[];
