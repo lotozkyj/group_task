@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="/">Главная</a></li>
-            <?php if(@$user!==NULL):?>
+            <?php if(@$_SESSION["user_id"]!==NULL):?>
             <li><a href="/account">Личный кабинет</a></li>
             <li><a href="/logout">Выйти</a></li>
             <?php endif; ?>

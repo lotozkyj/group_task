@@ -14,13 +14,13 @@ function action_contacts(){
 
     return renderViewWithTemplate("contacts","default",$data);
 }
-function action_details()
-{
+function action_details(){
     $data = [];
     $data["title"] = "Информация";
 }
 function action_account(){
     $data=[];
     $data["title"]="Личный кабинет";
+    $data["old"] = @$_SESSION["old"];
     return renderViewWithTemplate("details","default",$data);
 }
