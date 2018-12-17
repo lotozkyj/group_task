@@ -16,8 +16,8 @@
             <li class="menu1">PhpStorm</li><button>Удалить</button>
             <li class="menu1">Idea</li><button>Удалить</button>
         </ul>
-        <input type="text" placeholder="название категории"><br>
-        <button>Добавить</button>
+        <input type="text" id="new_categories" placeholder="название категории"><br>
+        <button id="add_new_categories">Добавить</button>
     </div>
     <div class="right_block">
     <p>PHPStorm</p>
