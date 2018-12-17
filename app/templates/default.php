@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title?></title>
     <link rel="stylesheet" href="/res/css/main.css">
-    <script src="/res/js/script.js"></script>
     <script src="/res/js/jquery-3.3.1.min.js"></script>
+    <script src="/res/js/script.js"></script>
 </head>
 <body>
 <header>

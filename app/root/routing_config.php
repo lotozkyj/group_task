@@ -8,5 +8,6 @@ return [
     "/register/handle" => "login@registerhandle",
     "/contacts" => "main@contacts",
     "/details" => "main@details",
-    "/account" => "main@account"
+    "/account" => "main@account",
+    "/account/addcat" => "addCategories@userkeys"
 ];
