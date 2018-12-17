@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title?></title>
     <link rel="stylesheet" href="/res/css/main.css">
-
+    <script src="/res/js/script.js"></script>
 </head>
 <body>
 <header>
