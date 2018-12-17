@@ -79,16 +79,12 @@ section{
 }
 
 .menu1 {
+    width: 110px;
     background-color: burlywood;
     border: 1px solid black;
-}
-.menu2 {
-    background-color: burlywood;
-    border: 1px solid black;
-}
-.menu3 {
-    background-color: burlywood;
-    border: 1px solid black;
+    margin: 8px 5px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .right_block {
@@ -104,4 +100,13 @@ section{
 }
 .main_menu li {
     list-style: none;
+}
+.list_cat {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.list_cat button{
+    height: 30px;
+    margin: 8px 0px;
 }

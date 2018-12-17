@@ -11,23 +11,13 @@
 <div class="main">
     <div class="left_block">
         <p class="categories">Категории</p>
-        <div class="menu1">
-        <ul>
-            <li>JetBrain<button>dell</button></li>
+        <ul class="list_cat">
+            <li class="menu1">JetBrain</li><button>Удалить</button>
+            <li class="menu1">PhpStorm</li><button>Удалить</button>
+            <li class="menu1">Idea</li><button>Удалить</button>
         </ul>
-        </div>
-        <div class="menu2">
-            <ul>
-                <li>PhpStorm<button>dell</button></li>
-            </ul>
-        </div>
-        <div class="menu3">
-            <ul>
-                <li>Idea<button>dell</button></li>
-            </ul>
-        </div>
-        <input type="text">
-        <button>ok</button>
+        <input type="text" placeholder="название категории"><br>
+        <button>Добавить</button>
     </div>
     <div class="right_block">
     <p>PHPStorm</p>
