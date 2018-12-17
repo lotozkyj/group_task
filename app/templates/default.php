@@ -7,19 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title?></title>
     <link rel="stylesheet" href="/res/css/main.css">
+
 </head>
 <body>
 <header>
-    <h1>MySite</h1>
+    <h1>Храните Ваши ключи безопасно</h1>
     <nav>
         <ul>
-            <li><a href="/">main</a></li>
-            <li><a href="/contacts">contacts</a></li>
-            <li><a href="/todo">todo example</a></li>
+            <li><a href="/">Главная</a></li>
+            <?php if(@$user!==NULL):?>
+            <li><a href="/account">Личный кабинет</a></li>
+            <li><a href="/logout">Выйти</a></li>
+            <?php endif; ?>
         </ul>
     </nav>
 </header>
 <section>
+    <div class="hellos">
+        <?php if(@$user!==NULL):?>
+            Добро пожаловать, <?=$user["login"]?>!
+        <?php endif; ?>
+    </div>
     <?=$content?>
 </section>
 

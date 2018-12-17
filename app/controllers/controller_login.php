@@ -1,13 +1,10 @@
 <?php
 
-
-
 function action_login(){
     if(auth_isAuth()) return redirect("/");
     $errors = @$_SESSION["errors"];
     if($errors!=null) unset($_SESSION["errors"]);
-    return renderViewWithTemplate("login","default",["errors"=>$errors]);
-
+    return renderViewWithTemplate("main","default",["errors"=>$errors]);
 }
 function action_register(){
     if(auth_isAuth()) return redirect("/");
@@ -15,8 +12,8 @@ function action_register(){
     $old = @$_SESSION["old"];
     if($errors!=null) unset($_SESSION["errors"]);
     if($old!=null) unset($_SESSION["old"]);
-
-    return renderViewWithTemplate("register","default",["errors"=>$errors,"old"=>$old]);
+    $data = ["errors"=>$errors,"old"=>$old,'title'=>'Регистрация'];
+        return renderViewWithTemplate("register","default",$data);
 }
 function action_logout(){
     auth_logout();

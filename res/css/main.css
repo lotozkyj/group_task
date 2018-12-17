@@ -52,12 +52,10 @@ section{
     text-align: center;
 
 }
-
 .error {
     color: red;
     font-size: 20px;
 }
-
 .main {
     display: flex;
     flex-direction: row;
@@ -96,4 +94,14 @@ section{
 .right_block {
     width: 80%;
     background-color: aquamarine;
+}
+.hellos {
+    background-color: #86c8cc;
+    font-size: 18px;
+}
+.main_menu {
+    padding: 20px;
+}
+.main_menu li {
+    list-style: none;
 }
