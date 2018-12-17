@@ -17,8 +17,8 @@
 <section class="main_menu">
     <h3>Выберите меню:</h3>
     <ul>
-        <li>Мои ключи</li>
-        <li>Добавить новый ключ</li>
+        <li><a href="/account">Мои ключи</a></li>
+        <li><a href="/account/addkey">Добавить новый ключ</a></li>
     </ul>
 </section>
 <?php endif; ?>

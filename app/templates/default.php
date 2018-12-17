@@ -25,7 +25,7 @@
 <section>
     <div class="hellos">
         <?php if(@$user!==NULL):?>
-            Добро пожаловать, <?=$user["login"]?> <a href="/logout">Выйти</a>
+            Добро пожаловать, <?=$user["login"]?>!
         <?php endif; ?>
     </div>
     <?=$content?>
