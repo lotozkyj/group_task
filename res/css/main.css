@@ -56,6 +56,7 @@ section{
     color: red;
     font-size: 20px;
 }
+<<<<<<< HEAD
 .hellos {
     background-color: #86c8cc;
     font-size: 18px;
@@ -65,4 +66,45 @@ section{
 }
 .main_menu li {
     list-style: none;
+=======
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_block {
+    width: 20%;
+    background-color: cornsilk;
+}
+
+.left_block li {
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.categories {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+
+.menu1 {
+    background-color: burlywood;
+    border: 1px solid black;
+}
+.menu2 {
+    background-color: burlywood;
+    border: 1px solid black;
+}
+.menu3 {
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+.right_block {
+    width: 80%;
+    background-color: aquamarine;
+>>>>>>> 1f8b36847bc94785675907308f230c7b2be2213c
 }

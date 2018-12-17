@@ -14,9 +14,15 @@ function action_contacts(){
 
     return renderViewWithTemplate("contacts","default",$data);
 }
-function action_account(){
+function action_account()
+{
+    $data = [];
+    $data["title"] = "Личный кабинет";
+}
+
+function action_details(){
     $data=[];
-    $data["title"]="Личный кабинет";
+    $data["title"]="Информация";
 
     return renderViewWithTemplate("details","default",$data);
 }
