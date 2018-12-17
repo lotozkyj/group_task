@@ -12,3 +12,10 @@ function action_contacts(){
 
     return renderViewWithTemplate("contacts","default",$data);
 }
+
+function action_details(){
+    $data=[];
+    $data["title"]="Информация";
+
+    return renderViewWithTemplate("details","default",$data);
+}
