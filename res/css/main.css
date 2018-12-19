@@ -110,3 +110,36 @@ section{
     height: 30px;
     margin: 8px 0px;
 }
+
+.right_block li {
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.list_info {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.menu2 {
+    width: 290px;
+    margin: 8px 5px;
+    border: 1px solid black;
+    line-height: 30px;
+    text-align: center;
+}
+
+.code {
+    width: 360px;
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 8px 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.list_info button{
+    height: 32px;
+    margin: 8px 0px;
+}

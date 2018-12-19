@@ -20,10 +20,13 @@
         <button id="add_new_categories">Добавить</button>
     </div>
     <div class="right_block">
-    <p>PHPStorm</p>
+        <ul class="list_info">
+            <li class="menu2">JetBrain</li><div class="code"> Код1</div><button>Удалить</button>
+            <li class="menu2">PhpStorm</li><div class="code"> Код2</div><button>Удалить</button>
+            <li class="menu2">Idea</li><div class="code"> Код3</div><button>Удалить</button>
+        </ul>
     </div>
 </div>
-
 
 </body>
 </html>
