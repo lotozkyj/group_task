@@ -16,8 +16,8 @@
             <li class="menu1">PhpStorm</li><button>Удалить</button>
             <li class="menu1">Idea</li><button>Удалить</button>
         </ul>
-        <input type="text" id="new_categories" placeholder="название категории"><br>
-        <button id="add_new_categories">Добавить</button>
+        <input class="add_categories" type="text" id="new_categories" placeholder="название категории"><br>
+        <button class="add_new_categories">Добавить</button>
     </div>
     <div class="right_block">
         <ul class="list_info">
@@ -25,6 +25,12 @@
             <li class="menu2">PhpStorm</li><div class="code"> Код2</div><button>Удалить</button>
             <li class="menu2">Idea</li><div class="code"> Код3</div><button>Удалить</button>
         </ul>
+    <div class="add_code">
+        <input class="add_name" type="text" id="new_name" placeholder="название продукта">
+        <input class="code" type="text" id="new_code" placeholder="номер ключа">
+        <button>Добавить</button>
+        <ul class="list_info">
+    </div>
     </div>
 </div>
 

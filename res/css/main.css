@@ -123,16 +123,16 @@ section{
 }
 
 .menu2 {
-    width: 290px;
+    width: 250px;
     margin: 8px 5px;
-    border: 1px solid black;
+    border: 1px dotted black;
     line-height: 30px;
     text-align: center;
 }
 
 .code {
-    width: 360px;
-    background-color: burlywood;
+    width: 400px;
+    background-color: powderblue;
     border: 1px solid black;
     margin: 8px 5px;
     line-height: 30px;
@@ -142,4 +142,41 @@ section{
 .list_info button{
     height: 32px;
     margin: 8px 0px;
+}
+
+.add_new_categories{
+    height: 32px;
+    width: 175px;
+}
+
+.add_code {
+    display: flex;
+    margin-top: 55px;
+}
+
+.add_name {
+    width: 250px;
+    background-color: powderblue;
+    border: 1px solid black;
+    margin: 8px 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.add_code button{
+    height: 32px;
+    margin: 8px 0px;
+}
+
+.add_new_categories{
+    height: 32px;
+    width: 177px;
+}
+.add_categories {
+    width: 175px;
+    background-color: pink;
+    border: 1px solid black;
+    margin: 5px 0px;
+    line-height: 30px;
+    text-align: center;
 }
